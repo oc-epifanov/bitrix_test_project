@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Снаряжение", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Общение", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О рыбалке", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Фотогалерея", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Блоги", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

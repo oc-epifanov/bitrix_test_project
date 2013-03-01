@@ -26,16 +26,18 @@
                   <tbody> 
                     <tr> <td align="right"> 
 <!-- #Begin_Auth -->
-<?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "auth", array(
-	"REGISTER_URL" => "/auth/",
-	"FORGOT_PASSWORD_URL" => "",
-	"PROFILE_URL" => "/personal/profile/",
-	"SHOW_ERRORS" => "N"
-	),
-	false
-);?>
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:system.auth.form",
+	"auth",
+	Array(
+		"REGISTER_URL" => "/auth/",
+		"FORGOT_PASSWORD_URL" => "",
+		"PROFILE_URL" => "/personal/profile/",
+		"SHOW_ERRORS" => "N"
+	)
+);?> 
 <!-- #End_Auth -->
-</td> <td align="right" width="10"></td> </tr>
+ </td> <td align="right" width="10"></td> </tr>
                    
                     <tr><td align="right"> 
 <!-- #Begin_Include -->
@@ -70,49 +72,24 @@
           <tbody> 
             <tr> <td valign="top" background="bitrix/templates/test/images/fot_tabl_w.gif" width="250"> 
 <!-- #Begin_Left_Menu -->
- 
-                <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
-                  <tbody> 
-                    <tr> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg" width="25"><img src="bitrix/templates/test/images/ukazatel_red.gif" width="25" height="25"  /></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg"><img src="bitrix/templates/test/images/pix.gif" width="10" height="10"  /><b><a href="#" class="text" ><font size="2" color="#666666">Главная</font></a></b></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> </tr>
-                   
-                    <tr> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_c.gif" width="2" height="2"  /></td> </tr>
-                   </tbody>
-                 </table>
-               
-                <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
-                  <tbody> 
-                    <tr> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg" width="25"><img src="bitrix/templates/test/images/ukazatel_red.gif" width="25" height="25"  /></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg"><img src="bitrix/templates/test/images/pix.gif" width="10" height="10"  /><b><a href="#" class="text" ><font size="2" color="#666666">Новости</font></a></b></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> </tr>
-                   
-                    <tr> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_c.gif" width="2" height="2"  /></td> </tr>
-                   </tbody>
-                 </table>
-               
-                <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
-                  <tbody> 
-                    <tr> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg" width="25"><img src="bitrix/templates/test/images/ukazatel_red.gif" width="25" height="25"  /></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg"><img src="bitrix/templates/test/images/pix.gif" width="10" height="10"  /><b><a href="#" class="text" ><font size="2" color="#666666">Статьи</font></a></b></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> </tr>
-                   
-                    <tr> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_c.gif" width="2" height="2"  /></td> </tr>
-                   </tbody>
-                 </table>
-               
-                <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
-                  <tbody> 
-                    <tr> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg" width="25"><img src="bitrix/templates/test/images/ukazatel_red.gif" width="25" height="25"  /></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg"><img src="bitrix/templates/test/images/pix.gif" width="10" height="10"  /><b><a href="#" class="text" ><font size="2" color="#666666">Снаряжение</font></a></b></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> </tr>
-                   
-                    <tr> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_c.gif" width="2" height="2"  /></td> </tr>
-                   </tbody>
-                 </table>
-               
-                <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
-                  <tbody> 
-                    <tr> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg" width="25"><img src="bitrix/templates/test/images/ukazatel_red.gif" width="25" height="25"  /></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="25" background="bitrix/templates/test/images/fot_tabl_centr.jpg"><img src="bitrix/templates/test/images/pix.gif" width="10" height="10"  /><b><a href="#" class="text" ><font size="2" color="#666666">Блоги</font></a></b></td> <td width="1" height="25" valign="top" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> </tr>
-                   
-                    <tr> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td height="1" background="bitrix/templates/test/images/fot_tabl_c.gif"><img src="bitrix/templates/test/images/fot_tabl_w.gif" width="2" height="2"  /></td> <td width="1" height="1"><img src="bitrix/templates/test/images/fot_tabl_c.gif" width="2" height="2"  /></td> </tr>
-                   </tbody>
-                 </table>
-               
+<?$APPLICATION->IncludeComponent("bitrix:menu", "fish1", Array(
+	"ROOT_MENU_TYPE" => "left",	// Тип меню для первого уровня
+	"MAX_LEVEL" => "1",	// Уровень вложенности меню
+	"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+	"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+	"DELAY" => "N",	// Откладывать выполнение шаблона меню
+	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+	"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+	"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+	"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+	"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+	),
+	false
+);?>
 <!-- #End_Left_Menu -->
- 
+
+                <br />
+              
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="2"> 
                   <tbody> 
                     <tr> <td></td> </tr>

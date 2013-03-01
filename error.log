@@ -157,3 +157,6 @@
 [Thu Feb 27 12:01:05.675077 2014] [:error] [pid 5948] [client 127.0.0.1:53166] script '/opt/lampp/htdocs/oc-10/project1.my/bitrix/urlrewrite.php' not found or unable to stat
 [Thu Feb 27 12:01:47.619712 2014] [:error] [pid 6296] [client 127.0.0.1:53171] script '/opt/lampp/htdocs/oc-10/project1.my/bitrix/urlrewrite.php' not found or unable to stat
 [Thu Feb 27 12:01:47.619864 2014] [:error] [pid 6296] [client 127.0.0.1:53171] script '/opt/lampp/htdocs/oc-10/project1.my/bitrix/urlrewrite.php' not found or unable to stat
+[Fri Mar 01 15:13:41.299613 2013] [:error] [pid 15514] [client 127.0.0.1:39113] PHP Parse error:  syntax error, unexpected ']' in /home/oc-10/public-html/project1.my/bitrix/templates/test/components/bitrix/menu/fish1/template.php on line 11, referer: http://project1.my/?bitrix_include_areas=Y&login=yes&x=6&y=8&clear_cache=Y
+[Fri Mar 01 15:13:52.339036 2013] [:error] [pid 15652] [client 127.0.0.1:39115] PHP Parse error:  syntax error, unexpected ']' in /home/oc-10/public-html/project1.my/bitrix/templates/test/components/bitrix/menu/fish1/template.php on line 11
+[Fri Mar 01 15:13:53.686953 2013] [:error] [pid 17802] [client 127.0.0.1:39120] PHP Parse error:  syntax error, unexpected ']' in /home/oc-10/public-html/project1.my/bitrix/templates/test/components/bitrix/menu/fish1/template.php on line 11, referer: http://project1.my/
