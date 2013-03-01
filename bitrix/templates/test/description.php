@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME"=>"test", "DESCRIPTION"=>"Попытка создать дизайн");?>
