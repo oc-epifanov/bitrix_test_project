@@ -72,24 +72,26 @@
           <tbody> 
             <tr> <td valign="top" background="bitrix/templates/test/images/fot_tabl_w.gif" width="250"> 
 <!-- #Begin_Left_Menu -->
-<?$APPLICATION->IncludeComponent("bitrix:menu", "fish1", Array(
-	"ROOT_MENU_TYPE" => "left",	// Тип меню для первого уровня
-	"MAX_LEVEL" => "1",	// Уровень вложенности меню
-	"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
-	"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
-	"DELAY" => "N",	// Откладывать выполнение шаблона меню
-	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
-	"MENU_CACHE_TYPE" => "N",	// Тип кеширования
-	"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
-	"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-	"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
-	),
-	false
-);?>
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"fish1",
+	Array(
+		"ROOT_MENU_TYPE" => "left",
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "left",
+		"USE_EXT" => "N",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"MENU_CACHE_TYPE" => "N",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => ""
+	)
+);?> 
 <!-- #End_Left_Menu -->
-
+ 
                 <br />
-              
+               
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="2"> 
                   <tbody> 
                     <tr> <td></td> </tr>
@@ -102,9 +104,23 @@
                    
                     <tr> <td height="20" width="150" background="bitrix/templates/test/images/fon_pix_g.jpg"><img src="bitrix/templates/test/images/fon_pix_g.jpg" width="150" height="1"  /></td> 				 <td height="20" background="bitrix/templates/test/images/pix_c_menu.jpg" align="right"> 
 <!-- #Begin_part_menu -->
- <img src="bitrix/templates/test/images/punkt_red.gif" width="5" height="5"  /> <b><a href="#" class="text" ><font size="1" color="#6E6E6E">Журналы</font></a> <img src="bitrix/templates/test/images/punkt_red.gif" width="5" height="5"  /> <a href="#" class="text" ><font size="1" color="#6E6E6E">Рецепты</font></a> <img src="bitrix/templates/test/images/punkt_red.gif" width="5" height="5"  /> <a href="#" class="text" ><font size="1" color="#6E6E6E">Контакты</font></a> </b> 
+<?$APPLICATION->IncludeComponent("bitrix:menu", "fish3", array(
+	"ROOT_MENU_TYPE" => "part",
+	"MENU_CACHE_TYPE" => "N",
+	"MENU_CACHE_TIME" => "3600",
+	"MENU_CACHE_USE_GROUPS" => "Y",
+	"MENU_CACHE_GET_VARS" => array(
+	),
+	"MAX_LEVEL" => "1",
+	"CHILD_MENU_TYPE" => "left",
+	"USE_EXT" => "N",
+	"DELAY" => "N",
+	"ALLOW_MULTI_SELECT" => "N"
+	),
+	false
+);?>
 <!-- #End_part_menu -->
- </td> <td height="20" background="bitrix/templates/test/images/pix_c_menu.jpg" width="10" align="right"></td></tr>
+</td> <td height="20" background="bitrix/templates/test/images/pix_c_menu.jpg" width="10" align="right"></td></tr>
                    </tbody>
                  </table>
                </td> </tr>

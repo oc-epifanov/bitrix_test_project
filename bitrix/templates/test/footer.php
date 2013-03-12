@@ -59,13 +59,22 @@
          </table>
        </td> <td width="1024" background="bitrix/templates/test/images/pix_s.jpg"> 
 <!-- #Begin_down_Menu -->
- 
-        <table width="1024" height="10" cellspacing="0" cellpadding="0" border="0" class="text"> 
-          <tbody> 
-            <tr> <td align="center"><img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Главная</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Новости</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Статьи</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Снаряжение</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Журналы</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Рецепты</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Контакты</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Регистрация</font></a></b> <img width="4" height="4" src="/images/test/punkt_top.gif"  /> <b><a class="text" href="#" ><font size="1" color="#6e6e6e">Вход</font></a></b> </td> </tr>
-           </tbody>
-         </table>
-       
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"fish2",
+	Array(
+		"ROOT_MENU_TYPE" => "top",
+		"MENU_CACHE_TYPE" => "N",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => "",
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "left",
+		"USE_EXT" => "N",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N"
+	)
+);?> 
 <!-- #End_down_Menu -->
  </td> <td background="bitrix/templates/test/images/pix_ts.jpg" width="20%"> 
         <table width="10" border="0" cellspacing="0" cellpadding="0" height="100%"> 
